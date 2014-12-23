@@ -36,8 +36,10 @@ for your GUI) :
 Usage :
 
 You can use the Z, Q, S, D keys and the mouse to move and look all around you.
-  Z : go forward
-  Q : translate to the left
-  S : go backward
-  D : translate to the right
-Mouse : look
+  - Z : go forward
+  - Q : translate to the left
+  - S : go backward
+  - D : translate to the right
+  - Mouse : look
+
+Note that the mouse cannot go out of the window.  
