@@ -1,3 +1,9 @@
+/* DEISS Olivier                                                                           */
+/* Class : Camera                                                                          */
+/* Last Update : 12/28/2014                                                                */
+
+/* This class is a Camera. It provides all the information needed by gluLookAt() function. */
+
 #include <cmath>
 
 class Camera {
