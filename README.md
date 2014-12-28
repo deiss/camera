@@ -2,7 +2,7 @@ Project : Camera<br/>
 Author : DEISS Olivier<br/>
 Last update : 12/28/2014
 
-This is a simple camera that you can use in any C++/OpenGL 3D project.
+This is a simple moving camera that you can use in any C++/OpenGL 3D project.
 
 Language : C++<br/>
 Libraries : OpenGL, Glut
@@ -14,21 +14,20 @@ with trigonometric formulas, considering that the player is at the center of a
 small sphere. The observation point given to gluLookAt belongs to that sphere.
 
 There are only two files in the project, but it cannot work alone. To use it the
-right way, you need to call the following (considering you also use my Fenetre
-for your GUI) :
+right way, you need to call the following :
  
-	Fenetre::draw() :
+	draw() :
  		(After glLoadIdentity();)
  		camera.translation();
  		gluLookAt(camera.getX(), camera.getY(), camera.getZ(), camera.getSightX(), camera.getSightY(), camera.getSightZ(), 0, 1, 0);
  
- 	Fenetre::keyboard() :
+ 	keyboard() :
 		camera.setKeyboard(key, true);
 		
- 	Fenetre::keyboardUp() :
+ 	keyboardUp() :
 		camera.setKeyboard(key, false);
  
-	Fenetre::mouseMove() :
+	mouseMove() :
 		camera.rotation(x, y);
 
 -----------------------------------------------------------------------------------
