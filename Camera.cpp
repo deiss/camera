@@ -4,7 +4,12 @@
 #include "Camera.hpp" 
 #include "Fenetre.hpp" 
 
-#include <GLUT/glut.h>
+#ifdef __linux__
+    #include <GL/glut.h>
+#else
+    #include <GLUT/glut.h>
+#endif
+
 #include <iostream>
 
 Camera::Camera(float X, float Y, float Z, float theta, float psi, float rotationSpeed, float translationSpeed, int width, int height) : _mouseX(width/2),
