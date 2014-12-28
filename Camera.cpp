@@ -2,7 +2,6 @@
 #define CAMERAHPP
 
 #include "Camera.hpp" 
-#include "Fenetre.hpp" 
 
 #ifdef __linux__
     #include <GL/glut.h>
