@@ -46,7 +46,6 @@ Note that the mouse cannot go out of the window.
 -----------------------------------------------------------------------------------
 
 To do :
-  - translation
   - linux and windows versions
 
 
