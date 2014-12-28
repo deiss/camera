@@ -1,6 +1,6 @@
 Project : Camera<br/>
 Author : DEISS Olivier<br/>
-Last update : 12/23/2014
+Last update : 12/28/2014
 
 This is a simple camera that you can use in any C++/OpenGL 3D project.
 
@@ -43,3 +43,12 @@ You can use the Z, Q, S, D keys and the mouse to move and look all around you.
   - Mouse : look
 
 Note that the mouse cannot go out of the window.  
+
+-----------------------------------------------------------------------------------
+
+To do :
+  - translation
+  - linux and windows versions
+
+
+
