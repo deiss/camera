@@ -34,7 +34,7 @@ right way, you need to call the following :
 
 -----------------------------------------------------------------------------------
 
-Usage :
+Keys :
 
 You can use the Z, Q, S, D keys and the mouse to move and look all around you.
   - Z : go forward
