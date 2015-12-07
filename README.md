@@ -1,5 +1,6 @@
-#### Project: Camera<br/>
-#### Author: DEISS Olivier<br/>
+##### Project: Camera<br/>
+##### Author: DEISS Olivier<br/>
+##### Started: May 2012
 
 This is a simple moving camera that you can use in any C++/OpenGL 3D project.
 
