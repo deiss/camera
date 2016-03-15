@@ -1,7 +1,7 @@
 /*
 Project: Camera
-Author: DEISS Olivier
-This software is offered under the GPL license. See COPYING for more information.
+Author:  DEISS Olivier
+License: This software is offered under the GPL license. See COPYING for more information.
 */
 
 #ifdef __linux__
