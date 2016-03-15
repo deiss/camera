@@ -36,14 +36,25 @@ To integrate this camera to your project, you need to add a few lines of code in
 
 ### Gameplay
 
-Using the mouse, you can look around you. You can move using the `Z`, `Q`, `S`, `D` keys as follow:
+Using the mouse, you can look around you. The keys depend on the keyboard.
+
+##### AZERTY
+
+You can move using the `Z`, `Q`, `S`, `D` keys as follow:
 
 * `Z`: go forward
 * `Q`: translate to the left
 * `S`: go backward
 * `D`: translate to the right
 
-Please note that the mouse is kept within the window's boundaries, so that you can look all around you (360°). 
+##### QWERTY
+
+You can move using the `W`, `A`, `S`, `D` keys as follow:
+
+* `W`: go forward
+* `A`: translate to the left
+* `S`: go backward
+* `D`: translate to the right 
 
 ***
 
