@@ -38,7 +38,7 @@ void Camera::rotation(int x, int y) {
 }
 
 void Camera::translation() {
-    float t = <static_cast<float>(glutGet(GLUT_ELAPSED_TIME) - time);
+    float t = static_cast<float>(glutGet(GLUT_ELAPSED_TIME) - time);
     time    = glutGet(GLUT_ELAPSED_TIME);
     if(keyboard[100]) { // d
         X -= sin(theta + M_PI/2)*sin(psi) * translation_speed * t;

@@ -41,8 +41,8 @@ class Camera {
 		float X;
 		float Y;
 		float Z;
-        int	  mouseX;
-		int	  mouseY;
+        int	  mouse_x;
+		int	  mouse_y;
 		float psi;
 		float theta;
 		float rotation_speed;
