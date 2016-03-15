@@ -23,22 +23,15 @@ The class provides data to *glut*'s library `gluLookAt` function. The computatio
 To integrate this camera to your project, you need to add a few lines of code in the following *glut* functions:
 
 * `draw()`:
-
-    `// after glLoadIdentity();`
-    `camera.translation();`
-    `gluLookAt(camera.getX(), camera.getY(), camera.getZ(), camera.getSightX(), camera.getSightY(), camera.getSightZ(), 0, 1, 0);`
- 
+    * `// after glLoadIdentity();`
+    * `camera.translation();`
+    * `gluLookAt(camera.getX(), camera.getY(), camera.getZ(), camera.getSightX(), camera.getSightY(), camera.getSightZ(), 0, 1, 0);`
 * `keyboard()`:
-
-    `camera.setKeyboard(key, true);`
-		
+    * `camera.setKeyboard(key, true);`
 * `keyboardUp()`:
-
-    `camera.setKeyboard(key, false);`
- 
+    * `camera.setKeyboard(key, false);`
 * `mouseMove()`:
-
-    `camera.rotation(x, y);`
+    * `camera.rotation(x, y);`
 
 ***
 
