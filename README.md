@@ -36,7 +36,7 @@ To integrate this camera to your project, you need to add a few lines of code in
 
 ### Gameplay
 
-Using the mouse, you can look around you. The keys depend on the keyboard.
+Using the mouse, you can look around you. To move, the keys depend on the keyboard.
 
 ##### AZERTY
 
