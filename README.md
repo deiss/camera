@@ -1,6 +1,6 @@
 # Camera
 
-Camera is a simple C++ 3D camera that you can use in any 3D environment. You can look around using the mouse, and move in all the directions using the keyboard. The calculus is made with simple trigonometry and the project is to be used with OpenGL/glut libraries.
+Camera is a simple 3D camera that you can use in any 3D environment, written in C++. You can look around using the mouse, and move in all the directions using the keyboard. The calculus is made with simple trigonometry and the project is to be used with OpenGL/glut libraries.
 
 ### Install
 
