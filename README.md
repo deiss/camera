@@ -34,7 +34,7 @@ To integrate this camera to your project, you need to add a few lines of code in
 
 ***
 
-### Gameplay
+### Keys
 
 Using the mouse, you can look around you. To move, the keys depend on the keyboard.
 
